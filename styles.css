@@ -1,0 +1,86 @@
+ 
+
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-top: 0;
+}
+
+#clock {
+  font-size: 48px;
+  margin: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#alarmForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#alarmForm label,
+#alarmForm input,
+#alarmForm select {
+  margin: 10px;
+}
+
+#setAlarmBtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+#setAlarmBtn:hover {
+  background-color: #45a049;
+}
+
+#alarms {
+  margin: 20px;
+}
+
+.alarm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.alarm button {
+  background-color: #f44336;
+  color: white;
+  padding: 4px 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.alarm button:hover {
+  background-color: #d32f2f;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}

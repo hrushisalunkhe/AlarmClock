@@ -1,0 +1,50 @@
+ <!-- The DOCTYPE declaration specifies the document type and version. -->
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- The title of the web page displayed in the browser tab. -->
+  <title>Alarm Clock</title>
+  
+  <!-- A link to an external CSS file for styling the web page. -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <!-- The clock display area where the current time will be shown. -->
+  <div id="clock">00:00:00</div>
+  
+  <!-- The form to set the alarm with inputs for hour, minute, second, and AM/PM. -->
+  <form id="alarmForm">
+    <!-- Label and input for setting the hour of the alarm (1 to 12). -->
+    <label for="hour">Hour:</label>
+    <input type="number" id="hour" min="1" max="12" required>
+    <br>
+    
+    <!-- Label and input for setting the minute of the alarm (0 to 59). -->
+    <label for="minute">Minute:</label>
+    <input type="number" id="minute" min="0" max="59" required>
+    <br>
+    
+    <!-- Label and input for setting the second of the alarm (0 to 59). -->
+    <label for="second">Second:</label>
+    <input type="number" id="second" min="0" max="59" required>
+    <br>
+    
+    <!-- Label and dropdown menu for selecting AM or PM. -->
+    <label for="ampm">AM/PM:</label>
+    <select id="ampm">
+      <option value="AM">AM</option>
+      <option value="PM">PM</option>
+    </select>
+    <br>
+    
+    <!-- Button to set the alarm, which triggers the setAlarm function. -->
+    <button type="button" id="setAlarmBtn">Set Alarm</button>
+  </form>
+  
+  <!-- The container div to hold the list of created alarms. -->
+  <div id="alarms"></div>
+
+  <!-- A script tag to include the JavaScript code from an external file. -->
+  <script src="script.js"></script>
+</body>
+</html>
