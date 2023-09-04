@@ -16,7 +16,7 @@ To run the alarm clock application on your local machine, follow these steps:
 1. Clone the repository to your local machine using Git or download it as a ZIP file.
 2. Open the index.html file in your web browser.
 
-Alternatively, you can also access the live version of the alarm clock application by visiting [https://example.com/alarm-clock](https://example.com/alarm-clock).
+Alternatively, you can also access the live version of the alarm clock application by visiting [https://example.com/alarm-clock](https://hrushisalunkhe.github.io).
 
 ## How to Use
 
